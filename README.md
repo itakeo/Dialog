@@ -1,5 +1,5 @@
 # Dialog
-Dialog.js
+Dialog.js 移动端弹窗
 
 ![image](https://github.com/Takeos/Dialog/blob/master/demo.gif)
 
