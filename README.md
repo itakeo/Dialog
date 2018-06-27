@@ -1,5 +1,8 @@
 # Dialog
 Dialog.js
+
+![image](https://github.com/Takeos/Dialog/blob/master/demo.gif)
+
 ```
 Dialog.init('测试文字') //默认
 Dialog.init('测试文字',2000) //第二个参数时间，2秒后自动关闭
