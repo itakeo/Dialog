@@ -14,6 +14,7 @@ const Dialog = (function(win,doc){
             item = doc.createElement('div'),
             t = this,set = t.set;
             _dialog.classList.add('c_alert_dialog');
+            if(!(typeof b === 'object') || (!set.title && !set.button)) _dialog.classList.add('c_alert_inner');
             if(set.index) _dialog.dataset.index = set.index
             item.classList.add('c_alert_wrap');
             item.innerHTML = `<div class="c_alert_con" style="${set.style}">${a}</div>`;
